@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in $(find . -name "*.html" -type f); do cp --update "$file" "../$(basename "$file")"; done
+cp -nu *.html ..
