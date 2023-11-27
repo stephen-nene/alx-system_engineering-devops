@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Show all processes for all users
 
-ps aux | head -50
+ps -auxf
