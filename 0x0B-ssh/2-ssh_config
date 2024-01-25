@@ -1,0 +1,7 @@
+# shellcheck disable=SC2148
+# SSH Config File
+Host web-01
+	Hostname 34.224.2.246
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
