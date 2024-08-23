@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Until We Break Free:
+
+
+until false
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
